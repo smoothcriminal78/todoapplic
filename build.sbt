@@ -1,5 +1,7 @@
 name := """play-scala"""
 
+// herokuAppName in Compile := "play-scala"
+
 version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
