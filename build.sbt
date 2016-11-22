@@ -11,7 +11,7 @@ libraryDependencies += evolutions
 libraryDependencies += cache
 libraryDependencies += ws
 libraryDependencies += "com.typesafe.play" %% "anorm" % "2.5.0"
-libraryDependencies += "postgresql" % "postgresql" % "8.4-702.jdbc4"
+libraryDependencies += libraryDependencies += "postgresql" % "postgresql" % "9.1-901.jdbc4"
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 
 
